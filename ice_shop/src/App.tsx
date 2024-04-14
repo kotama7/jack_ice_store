@@ -3,6 +3,8 @@ import MyAppBar from "./component/app_bar";
 
 import { BarIce } from "./data/ice_data";
 
+import './App.css';
+
 
 function App() {
   return (

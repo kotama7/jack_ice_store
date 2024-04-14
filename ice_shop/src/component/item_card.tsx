@@ -1,7 +1,9 @@
 import React from 'react';
 
 import { IgrCardModule, IgrCard, IgrCardHeader, IgrCardContent } from 'igniteui-react';
+
 import 'igniteui-webcomponents/themes/light/bootstrap.css';
+import './css/item_card.css';
 
 import CardProps from './interface/cardprops';
 

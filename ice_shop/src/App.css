@@ -1,50 +1,38 @@
-.card-wrapper {
-  max-width: 400px;
-  min-width: 250px;
+.App {
+  text-align: center;
 }
 
-.card-horizontal {
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  flex-direction: row;
-  flex: 1 1 0%;
-}
-
-.card-horizontal img {
-  width: 64px;
-  height: 64px;
-}
-
-.card-horizontal igc-card-actions {
-  justify-content: center;
-}
-
-.divider {
-  border-right: 1px solid darkgray;
-}
-
-.card-wrapper {
-  max-width: 320px;
-  min-width: 220px;
-}
-
-.center {
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-igc-card {
-  background-color: #011627;
+.App-link {
+  color: #61dafb;
 }
 
-igc-card-content,
-igc-card-header::part(title) {
-  color: #FEFEFE;
-}
-
-igc-card-header::part(subtitle) {
-  color: #ECAA53;
-  opacity: 0.9;
-}
-
-igc-icon-button+igc-icon-button {
-  margin-left: 10px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
