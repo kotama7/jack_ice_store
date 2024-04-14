@@ -12,7 +12,7 @@ function App() {
 
       <div>
 
-        <ItemCard props={BarIce}/>
+        <ItemCard {...BarIce}/>
 
       </div>
 

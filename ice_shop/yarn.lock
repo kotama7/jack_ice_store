@@ -5682,6 +5682,13 @@ igniteui-dockmanager@^1.7.0:
   dependencies:
     igniteui-trial-watermark "^1.0.3"
 
+igniteui-react-core@^18.6.0:
+  version "18.6.0"
+  resolved "https://registry.yarnpkg.com/igniteui-react-core/-/igniteui-react-core-18.6.0.tgz#466041c700daee12547470393825538fa140cb85"
+  integrity sha512-Vd7cTb+INZbsNW5mSi0jebQb9sTgzwIsYeKdA0r/r2yvsGXyCe8fSHP2UXHNdXd/fWnF9XYkzjtvkTCFwRZF1w==
+  dependencies:
+    tslib "^2.3.1"
+
 igniteui-react@^18.6.0:
   version "18.6.0"
   resolved "https://registry.yarnpkg.com/igniteui-react/-/igniteui-react-18.6.0.tgz#50212c154e603e38497c47112bcd42918e9c85ce"
