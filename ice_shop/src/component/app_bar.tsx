@@ -5,6 +5,7 @@ import React from 'react';
 // import Typography from '@material-ui/core/Typography';
 
 import './css/app_bar.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -22,7 +23,8 @@ export default class MyAppBar extends React.Component {
         return (
             <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-              <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+              <img src="./img/logo.jpg"/>
+              <Navbar.Brand href="#home">ICE SHOP JACK</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
