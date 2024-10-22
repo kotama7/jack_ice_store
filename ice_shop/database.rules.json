@@ -1,0 +1,27 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "ice": {
+      "バーアイス": {
+        "log": {
+          ".indexOn": "date"
+        }
+      },
+      "ガリガリ君ソーダ": {
+        "log": {
+          ".indexOn": "date"
+        }
+      },
+      "ガツンとミカン": {
+        "log": {
+          ".indexOn": "date"
+        }
+      },
+      "ガリガリ君メロンソーダ": {
+        "log": {
+          ".indexOn": "date"
+        }
+      }
+  }}
+}

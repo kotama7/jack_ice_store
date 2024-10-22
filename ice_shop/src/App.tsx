@@ -1,22 +1,20 @@
-import ItemCard from "./component/item_card";
-import MyAppBar from "./component/app_bar";
-
-import { BarIce } from "./data/ice_data";
-
 import './App.css';
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import Home from './component/home/home';
+import Admin from './component/admin/admin';
 
 function App() {
   return (
     <div className="App">
-      
-      <MyAppBar />
 
-      <div>
-
-        <ItemCard {...BarIce}/>
-
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/admin" element={<Admin />} />
+        </Routes>
+      </BrowserRouter>
 
     </div>
   );
